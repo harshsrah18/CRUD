@@ -1,7 +1,11 @@
 import React from "react";
+import Navbar from "./component/Navbar";
 const App = () => {
   return (
-    <h1>We are going to perform CRUD operations</h1>
+    <>
+      <Navbar />
+       <h1>We are going to perform CRUD operations</h1>
+    </>
   );
 };
 
