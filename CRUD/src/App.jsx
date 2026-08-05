@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "./component/Navbar";
+import {getPost} from "./api/PostApi";
+
 const App = () => {
   return (
     <>
-      <Navbar />
+      
        <h1>We are going to perform CRUD operations</h1>
     </>
+     
   );
 };
 
